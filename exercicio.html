@@ -7,22 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+
+    <form>
     <h1>Formulário de cadastro</h1>
     <h3>Para realizar o seu cadastro em nossa plataforma, insira os seguintes dados e clique em CADASTRAR-SE.</h3>
-    
-    <label for="text"> Insira seu nome</label> 
-    <input type="text" placeholder="" /> <hr /> 
-    
-    <label for="text"> Insira seu sobrenome</label>     
-    <input type="text" placeholder="" /> <hr /> 
-    
-    <label for="email"> Insira seu melhor e-mail</label> 
-    <input id="email" type="email"> <hr />
-    
-    <label for="password"> Crie uma senha</label>     
-    <input type="password" placeholder="" /> <hr /> 
+
+    <label for="nome_completo"> Insira o seu nome completo: </label> 
+    <input type="text" name="nome_completo" id="nome_completo" /> <hr />
+
+    <label for="email"> Insira seu melhor email: </label> 
+    <input type="email" name="email" id="email" /> <hr />
+
+    <label for="password"> Crie uma senha de acesso: </label>     
+    <input type="password" name="password" id="password" /> <hr /> 
 
     <button type="submit">
         CADASTRAR-SE
+    </button>
+
+    </form>
 </body>
 </html>
